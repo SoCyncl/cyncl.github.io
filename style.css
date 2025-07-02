@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #fdf8ec;
+  color: #4b3e2e;
+  line-height: 1.6;
+}
+
+header {
+  background: #fff8e4;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #e4dac4;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.8rem;
+  color: #5a432b;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #6a533b;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.sidebar {
+  width: 20%;
+  background: #fffdf5;
+  border: 1px solid #e3d8c2;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.sidebar.left h2 {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.sidebar.left details {
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.sidebar.left summary {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+main {
+  flex: 1;
+  background: #fffef9;
+  padding: 1.5rem;
+  border: 1px solid #e7dccc;
+  border-radius: 8px;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+main h1 {
+  font-family: 'Crimson Pro', serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #7a4e2f;
+}
+
+.sidebar.right h3 {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar.right .tidbit,
+.sidebar.right .updates,
+.sidebar.right .socials {
+  margin-bottom: 1.5rem;
+}
+
+.sidebar.right ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar.right li {
+  margin-bottom: 0.75rem;
+}
+
+.sidebar.right span {
+  font-size: 0.85rem;
+  color: #998d7e;
+  display: block;
+}
+
+.socials .icons a {
+  display: inline-block;
+  background: #e6dec6;
+  color: #443a2a;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  margin: 0.2rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #fff8e4;
+  border-top: 2px solid #e4dac4;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
